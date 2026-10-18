@@ -1,0 +1,12 @@
+Port 3333
+ListenAddress 127.0.0.1
+HostKey /etc/ssh/ssh_host_ed25519_key
+PidFile /run/sshd_3333.pid
+
+PermitRootLogin no
+PubkeyAuthentication yes
+PasswordAuthentication yes
+KbdInteractiveAuthentication no
+UsePAM yes
+
+LogLevel DEBUG3
